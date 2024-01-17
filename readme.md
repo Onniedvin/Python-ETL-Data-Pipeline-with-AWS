@@ -7,7 +7,7 @@ Harjottelua IaC parissa käyttäen Terraformia ja AWS. Kokeilen tutkia oman Spot
 #### Käytettävät palvelut
 
 | Palvelu  | Käyttö  |
-|---|---|
+|:---|:---|
 | Terraform  | Toteuttaa pilvi-infran (**oletusregioona *us-east-1***) |
 | Cloudwatch  | Kuukausittainen triggeri, joka hakee uudet biisit soittolistalta  |
 | Lambda  | Python koodi, joka tekee analyysin  |
@@ -38,4 +38,5 @@ Ongelma lienee siis tämän IAM roolin **lambda_execution_role** kanssa, jota yr
 │   on providers.tf line 1, in provider "aws":
 │    1: provider "aws" {
 │
-╵```
+╵
+```
